@@ -67,12 +67,12 @@ const Home = () => {
                       <p>名称：{statusState?.status?.system_name}</p>
                       <p>版本：{statusState?.status?.version ? statusState?.status?.version : "unknown"}</p>
                       <p>
-                        源码：
+                        主页：
                         <a
-                          href='https://github.com/songquanpeng/one-api'
+                          href='https://chumeng.plus'
                           target='_blank'
                         >
-                          https://github.com/songquanpeng/one-api
+                          https://chumeng.plus
                         </a>
                       </p>
                       <p>启动时间：{getStartTimeString()}</p>
